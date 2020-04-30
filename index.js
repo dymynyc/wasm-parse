@@ -249,7 +249,9 @@ var Sections = GROUP(OR(
   AND(Byte( 8, Symbol('start')), Bytes()),
   AND(Byte( 9, Symbol('element')), Bytes()),
   CodeSection,
-  AND(Byte(11, Symbol('data')), Bytes())
+  AND(Byte(11, Symbol('data')), Bound(
+    AND(Expr, Bytes())
+  ))
 ))
 var limits = Symbol('limits')
 var Limits = GROUP(OR(
