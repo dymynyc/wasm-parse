@@ -1,0 +1,20 @@
+{
+  "name": "wasm-parse",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dymynyc/wasm-parse",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dymynyc/wasm-parse.git"
+  },
+  "dependencies": {
+    "stack-expression": "^1.6.1",
+    "varint": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+  "license": "MIT"
+}

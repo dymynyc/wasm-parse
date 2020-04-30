@@ -1,0 +1,6 @@
+# wasm-parse
+
+
+## License
+
+MIT
