@@ -11,7 +11,9 @@
     "stack-expression": "^1.6.1",
     "varint": "^5.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^5.0.0"
+  },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
